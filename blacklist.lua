@@ -1,4 +1,3 @@
-local plr = game:GetService("Players").LocalPlayer
 
 local blacklisted = {"SprouteRL"}
 if table.find(blacklisted, plr.Character.Name) then 
